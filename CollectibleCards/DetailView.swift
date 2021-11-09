@@ -18,7 +18,12 @@ struct DetailView: View {
                     .padding(16)
                 Color.white
                     .padding(24)
-                
+                Rectangle()
+                    .fill(Color.teal)
+                    .frame(width: 8, height: 225)
+                    .padding(.leading, 138)
+                    .padding(.trailing, 174)
+                    .padding(.bottom, 262)
                 VStack(spacing: 0) {
                     HStack(spacing: 0) {
                         Spacer()
@@ -41,7 +46,10 @@ struct DetailView: View {
                         .padding(.leading, 24)
                         .padding(.top, 18)
                     
-                    
+                    Rectangle()
+                        .fill(Color.teal)
+                        .frame(width: 114, height: 8)
+                        .padding(.leading, 24)
                     
                     VStack {
                         Text("Career Stats")
@@ -50,7 +58,7 @@ struct DetailView: View {
                         
                         HStack {
                             VStack(alignment: .leading) {
-                                Text("Height")
+                                Text("Height:")
                                 Text("Position:")
                                 Text("Number:")
                                 Text("Games:")
@@ -59,6 +67,7 @@ struct DetailView: View {
                             }
                             Spacer()
                             VStack(alignment: .trailing) {
+                                Text("1.69")
                                 Text("FW")
                                 Text("30")
                                 Text("942")
@@ -67,16 +76,15 @@ struct DetailView: View {
                             }
                         }
                     }
-                    .padding(.vertical, 8)
+                    .padding(.bottom, 8)
                     .padding(.leading, 24)
                     .padding(.trailing, 182)
                     Rectangle()
                         .fill(Color.teal)
                         .frame(width: 288, height: 8)
                         .padding(.horizontal, 16)
-                    Text("Born in Rosario, Argentina 24 June 1987. Competitive debut in 2004 playing for Barcelona FC. Joined PSG in 2021. Team captain of the Argentina National Team.")
+                    Text("He was born in Rosario, Argentina 24 June 1987. He made his competitive debut in 2004 playing for Barcelona FC. Messi played with said team until he joined PSG in 2021. He is team captain of the Argentina National Team .")
                         .font(.body)
-                        .padding(.vertical, 15)
                         .padding(.horizontal, 24)
                     
                     HStack {
