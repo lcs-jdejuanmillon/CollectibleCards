@@ -23,7 +23,7 @@ struct DetailView: View {
                     .frame(width: 8, height: 225)
                     .padding(.leading, 138)
                     .padding(.trailing, 174)
-                    .padding(.bottom, 262)
+                    .padding(.bottom, 268)
                 VStack(spacing: 0) {
                     HStack(spacing: 0) {
                         Spacer()
@@ -83,20 +83,28 @@ struct DetailView: View {
                         .fill(Color.teal)
                         .frame(width: 288, height: 8)
                         .padding(.horizontal, 16)
-                    Text("He was born in Rosario, Argentina 24 June 1987. He made his competitive debut in 2004 playing for Barcelona FC. Messi played with said team until he joined PSG in 2021. He is team captain of the Argentina National Team .")
+                    Text("""
+He was born in Rosario, Argentina 24 June 1987. He made his competitive debut in 2004 playing for Barcelona FC. Messi played with said team until he joined PSG in 2021. He is team captain of the Argentina National Team.
+
+
+
+
+""")
                         .font(.body)
                         .padding(.horizontal, 24)
                     
-                    HStack {
-                        Spacer()
-                        Image("PSG")
-                            .resizable()
-                            .scaledToFit()
-                            .frame(width: 100, height: 100, alignment: .bottomTrailing)
-                    }
-                    .padding(.bottom, 24)
-                    .padding(.trailing, 24)
                     
+                    
+                    
+                }
+                VStack() {
+                    Spacer()
+                    Image("PSG")
+                        .resizable()
+                        .scaledToFit()
+                        .frame(width: 296, height: 100, alignment: .bottomTrailing)
+                        .padding(.bottom, 24)
+                        .padding(.trailing, 24)
                 }
             }
             .foregroundColor(.yellow)
