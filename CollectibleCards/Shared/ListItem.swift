@@ -17,7 +17,7 @@ struct ListItem: View {
                 .resizable()
                 .scaledToFill()
                 .frame(width: 50, height: 50)
-
+                .cornerRadius(25)
             
             
             VStack(alignment: .leading) {
@@ -35,7 +35,7 @@ struct ListItem: View {
 
 struct ListItem_Previews: PreviewProvider {
     static var previews: some View {
-        ListItem(image: "Messi",
+        ListItem(image: "Messi2",
                  title: "Lionel Messi",
                  subtitle: "He was born in Rosario, Argentina 24 June 1987.")
     }
