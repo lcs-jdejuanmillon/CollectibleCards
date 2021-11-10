@@ -44,7 +44,7 @@ let listOfItems = [
            games: "942",
            assists: "315",
            goals: "755",
-           bodyText: "Lionel Andrés Messi Cuccittini was born in Rosario, Argentina on 24 June 1987. He made his competitive debut in 2004 playing for Barcelona FC. Messi played with said team until 2021, year in which he joined PSG in 2021. He is team captain of the Argentina National Team.",
+           bodyText: "Lionel Andrés Messi Cuccittini was born in Rosario, Argentina on 24 June 1987. He made his debut in 2004 playing for Barcelona FC. Messi played with said team until 2021, when he joined PSG. He is team captain of the Argentina National Team.",
            subtitle: "Lionel Andrés Messi Cuccittini was born in Rosario, Argentina 24 June 1987.")
     ,
     Player(color1: "PorGreen",
