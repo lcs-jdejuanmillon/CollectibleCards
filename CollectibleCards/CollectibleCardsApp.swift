@@ -11,7 +11,9 @@ import SwiftUI
 struct CollectibleCardsApp: App {
     var body: some Scene {
         WindowGroup {
-            CardsListView()
+            NavigationView {
+                CardsListView()
+            }
         }
     }
 }
