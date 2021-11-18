@@ -92,8 +92,8 @@ let listOfItems = [
            games: "244",
            assists: "65",
            goals: "154",
-           bodyText: "Kylian Mbappé was born in Paris, France on 20 de diciembre de 1998. He made his competitive debut in 2017 playing for Molde FK. He currently plays with Borussia Dortmund, team he joined in 2017.",
-           subtitle: "Kylian Mbappé was born in Paris, France on 20 de diciembre de 1998.")
+           bodyText: "Kylian Mbappé was born in Paris, France on 20 December de 1998. He made his competitive debut in 2015 playing for Monaco FC. He currently plays with Paris Saint-Germain, team he joined in 2017.",
+           subtitle: "Kylian Mbappé was born in Paris, France on 20 December de 1998.")
     ,
     Player(color1: "NorRed",
            color2: "NorBlue",
@@ -108,7 +108,7 @@ let listOfItems = [
            games: "81",
            assists: "16",
            goals: "81",
-           bodyText: "Erling Braut Haaland was born in Leeds, England on 21 July 2000. He made his competitive debut in 2002 playing for Sporting CP. CR7 currently plays with Manchester United, team he joined in 2019. He is considered one of the best strikers in world football.",
+           bodyText: "Erling Braut Haaland was born in Leeds, England on 21 July 2000. He made his competitive debut in 2017 playing for Molde FK.. He currently plays with Borussia, team he joined in 2020. He is considered one of the best strikers in world football.",
            subtitle: "Erling Braut Haaland was born in Leeds, England on 21 July 2000.")
 
 ]
