@@ -21,10 +21,10 @@ struct DetailView: View {
                     .padding(24)
                 Rectangle()
                     .fill(Color(player.color1))
-                    .frame(width: 8, height: 225)
-                    .padding(.leading, 138)
-                    .padding(.trailing, 174)
-                    .padding(.bottom, 268)
+                    .frame(width: 8, height: 220)
+                    .padding(.leading, 143)
+                    .padding(.trailing, 169)
+                    .padding(.bottom, 267)
                 VStack() {
                     Spacer()
                     Image(player.team)
@@ -40,7 +40,7 @@ struct DetailView: View {
                         Image(player.image)
                             .resizable()
                             .scaledToFill()
-                            .frame(width: 150, height: 225, alignment: .center)
+                            .frame(width: 145, height: 220, alignment: .center)
                             .clipped()
                     }
                     Spacer()
@@ -48,7 +48,6 @@ struct DetailView: View {
                 .padding(24)
                 .frame(width: 320)
                 VStack(alignment: .leading, spacing: 0) {
-                    
                     Text(player.name)
                         .font(.title)
                         .bold()
@@ -58,7 +57,7 @@ struct DetailView: View {
                     
                     Rectangle()
                         .fill(Color(player.color1))
-                        .frame(width: 114, height: 8)
+                        .frame(width: 120, height: 8)
                         .padding(.leading, 24)
                     
                     VStack {
@@ -86,9 +85,8 @@ struct DetailView: View {
                             }
                         }
                     }
-                    .padding(.bottom, 8)
                     .padding(.leading, 24)
-                    .padding(.trailing, 182)
+                    .padding(.trailing, 177)
                     Rectangle()
                         .fill(Color(player.color1))
                         .frame(width: 288, height: 8)
@@ -97,13 +95,9 @@ struct DetailView: View {
                         .font(.body)
                         .padding(.horizontal, 24)
                         .frame(height: 284, alignment: .top)
-                    
-                    
-                    
-
                 }
-                
             }
+            .frame(width: 320, height: 530)
             .foregroundColor(Color(player.color3))
         }
     }
